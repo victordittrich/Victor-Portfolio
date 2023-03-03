@@ -17,13 +17,50 @@
 
     <!-- BOXICONS -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
 
     <title>Victor Hugo Dittrich</title>
 </head>
 <body>
         <!-- HEADER -->
         <header class="header" id="header">
-            
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Victor</a>
+
+                <div class="nav__menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link">
+                                <box-icon name='home-alt' color='#ffffff' ></box-icon>                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <box-icon name='user' color='#ffffff' ></box-icon>                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <box-icon name='book' color='#ffffff' ></box-icon>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#work" class="nav__link">
+                                <box-icon name='briefcase-alt-2' color='#ffffff' ></box-icon>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">
+                                <box-icon name='message-square-detail' color='#ffffff' ></box-icon>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- BOTAO TEMA -->
+                <i class='bx bx-moon change-theme' id="theme-button"></i>
+            </nav>
         </header>
 
         <!-- MAIN -->
@@ -80,5 +117,7 @@
 
         <!-- MAIN -->
         <script src="assets/js/main.js"></script>
+
+        <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     </body>
 </html>

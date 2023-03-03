@@ -189,6 +189,8 @@ img {
     border-radius: 4rem;
     padding: 1rem 2.25rem;
     backdrop-filter: blur(10px);
+    left: 50%;
+    transform: translate(-50%);
 }
 
 .nav__list{

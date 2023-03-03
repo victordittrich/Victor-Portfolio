@@ -209,8 +209,8 @@ img {
 /* Active link */
 
 .active-link{
-    background: rgb(142, 132, 155);
-    box-shadow: 0px 0px 16px hsla(var(--first-hue), var(--sat), var(--lig), .4);
+    background: rgba(219, 255, 120, 0.459);
+    box-shadow: 0px 0px 16px rgba(153, 255, 0, 0.322);
 }
 
 /* Change background header */

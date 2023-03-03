@@ -16,8 +16,8 @@
   --sat: 66%;
   --lig: 75%;
   --second-hue: 219;
-
-  --first-color: hsl(var(--first-hue), var(--sat), var(--lig));
+  --first-color:greenyellow;
+  /* --first-color: hsl(var(--first-hue), var(--sat), var(--lig)); */
   --first-color-alt: hsl(var(--first-hue), var(--sat), 71%); /* -4% */
   --title-color: hsl(var(--second-hue), 15%, 95%);
   --text-color: hsl(var(--second-hue), 8%, 75%);
@@ -258,7 +258,8 @@ img {
   justify-self: center;
   width: 210px;
   height: 210px;
-  background: linear-gradient(var(--first-color),rgb(144, 132, 208, 0.2));
+  background:
+  var(--first-color);
     border-radius: 10rem 10rem 10rem 10rem;
   display: flex;
   align-items: center;

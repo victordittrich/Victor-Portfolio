@@ -402,6 +402,10 @@ img {
   margin-bottom: 2rem;
 }
 
+
+/*=============== SKILLS ===============*/
+
+
 .skills__container{
   row-gap: 2rem;
   padding-top: 1rem;
@@ -452,9 +456,6 @@ img {
 .skills__level{
   font-size: var(--tiny-font-size);
 }
-
-/*=============== SKILLS ===============*/
-
 
 /*=============== SERVICES ===============*/
 

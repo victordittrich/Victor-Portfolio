@@ -255,16 +255,14 @@ img {
 }
 
 .home__img{
-  height: 400px;
-  width: 270px;
-  border-radius: 2rem;
+  height: 370px;
 }
 
 .home__handle{
   justify-self: center;
   width: 270px;
   height: 390px;
-  background:linear-gradient(180deg, #0fc2bfb2,#0fc2bf0e);
+  background:linear-gradient(180deg, #0fc2bf81,#00000007);
   border-radius: 10rem 10rem 1rem 1rem;
   display: flex;
   align-items: center;

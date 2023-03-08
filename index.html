@@ -13,6 +13,7 @@
     <link rel="manifest" href="assets/img/site.webmanifest">
 
     <!-- CSS -->
+
     <link rel="stylesheet" href="assets/css/styles.css">
 
     <!-- BOXICONS -->
@@ -50,12 +51,12 @@
                                 <box-icon name='briefcase-alt-2' color='#ffffff' ></box-icon>
                             </a>
                         </li>
-
+<!-- 
                         <li class="nav__item">
                             <a href="#contact" class="nav__link">
                                 <box-icon name='message-square-detail' color='#ffffff' ></box-icon>
                             </a>
-                        </li>
+                        </li> -->
                     </ul>
                 </div>
                 <!-- BOTAO TEMA -->
@@ -464,8 +465,47 @@
                     <div class="work__card mix web">
                         <img class="work__img" src="assets/img/work3.png">
                         <h3 class="work__title">Calculadora</h3>
-                        <a href="#" class="work__button">Demo <i class='bx bx-right-arrow-alt work__icon' ></i></a>
-                        
+                        <span class="services__button">Veja mais
+                            <i class='bx bx-right-arrow-alt' ></i>
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <i class='bx bx-x services__modal-close'></i>
+
+                                <h3 class="services__modal-title">Calculadora</h3>
+
+                                <ul class="services__modal-list">
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon' ></i>
+                                        <p class="services__modal-info">
+                                            Crio landing pages para divulgação de produto.
+                                        </p>
+                                    </li>
+                                    <div class="carousel-wrapper">
+                                        <span id="item-1"></span>
+                                        <span id="item-2"></span>
+                                        <span id="item-3"></span>
+                                        <div class="carousel-item item-1">
+                                          <a href="#item-3" class="arrow-prev arrow"></a>
+                                          <a href="#item-2" class="arrow-next arrow"></a>
+                                        </div>
+                                    
+                                        <div class="carousel-item item-2">
+                                          <a href="#item-1" class="arrow-prev arrow"></a>
+                                          <a href="#item-3" class="arrow-next arrow"></a>
+                                        </div>
+                                    
+                                        <div class="carousel-item item-3">
+                                          <a href="#item-2" class="arrow-prev arrow"></a>
+                                          <a href="#item-1" class="arrow-next arrow"></a>
+                                        </div>
+                                    
+                                      </div>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
 
                     <div class="work__card mix backend">
@@ -485,13 +525,12 @@
             </section> -->
 
             <!-- CONTACT -->
-            <!-- <section class="contact section" id="contact">
-                
-            </section> -->
+            <section class="contact section" id="contact">
+            </section>
         </main>
 
         <!-- FOOTER -->
-        <footer class="footer" id="contact">
+        <footer class="footer">
             <div class="footer__container container">
                 <h1 class="footer__title">
                     Victor Hugo

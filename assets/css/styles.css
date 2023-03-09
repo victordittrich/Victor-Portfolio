@@ -869,10 +869,6 @@ background-color: hsla(var(--second-hue),32%,90%, .8);
 @media screen and (min-width: 576px){
   .nav__menu{
     width: 328px;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-
   }
 
   .about__info{
@@ -913,21 +909,23 @@ background-color: hsla(var(--second-hue),32%,90%, .8);
   .work__img{
     width: 295px;
   }
+}
+@media screen and (min-width:767px) {
+  .work__container{
+    grid-template-columns: repeat(2, max-content);
+  }
 
-  @media screen and (min-width:767) {
-    .work__container{
-      grid-template-columns: 2,max-content;
-    }
-  
+  .work__img{
+    height: 250px;
   }
 
 }
 
 /* For large devices */
- @media screen and (min-width:992) {
+ @media screen and (min-width:992px) {
     .container{
-      margin-left: auto;
-      margin-right: auto;
+      margin-left: 10rem;
+      margin-right: 10rem;
     }
 
     .section{
@@ -938,8 +936,8 @@ background-color: hsla(var(--second-hue),32%,90%, .8);
       margin-bottom: 3.5rem;
     }
 
-    .nav{
-      height: calc(var(--header-height) +1rem);
+    .nav__logo{
+      margin-left: 2rem;
     }
 
     .home__handle{
@@ -1034,7 +1032,7 @@ background-color: hsla(var(--second-hue),32%,90%, .8);
 
 /* CARROSSEL */
 .carousel-wrapper {
-  height: 250px;
+  height: 300px;
   position: relative;
   width: 250px;
   display: block;
@@ -1078,15 +1076,15 @@ background-color: hsla(var(--second-hue),32%,90%, .8);
 .item-1 {
   z-index: 2;
   opacity: 1;
-  background: url('../img/work2.png');
+  background: url('../img/work3.png');
   background-size: cover;
 }
 .item-2 {
-  background: url('../img/me2.jpg');
+  background: url('../img/calc1.png');
   background-size: cover;
 }
 .item-3 {
-  background: url('../img/me3.png');
+  background: url('../img/calc2.png');
   background-size: cover;
 }
 

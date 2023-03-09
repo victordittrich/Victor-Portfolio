@@ -465,7 +465,7 @@ img {
 
 .services__card{
   background-color: var(--container-color);
-  padding: 3rem 1.5rem 1.5rem;
+  padding: 32rem 1.5rem 1.5rem;
   border-radius: 1rem;
 }
 
@@ -515,7 +515,7 @@ img {
 .services__modal-content{
   position: relative;
   background-color: var(--body-color);
-  padding: 4.5rem 1.5rem 2.5rem;
+  padding: 2.5rem 1.5rem 2.5rem;
   border-radius: 1.5rem;
 }
 
@@ -733,11 +733,11 @@ img {
 
 /* CARROSSEL */
 .carousel-wrapper {
-  height: 300px;
+  height: 250px;
   position: relative;
-  width: 300px;
+  width: 250px;
   display: block;
-  margin: 50px auto ;
+  margin: 20px auto ;
   border: 2px solid black;
 }
 

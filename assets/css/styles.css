@@ -126,6 +126,7 @@ body.light-theme{
   --text-color: hsl(var(--second-hue), 8%, 35%);
   --body-color: hsl(var(--second-hue), 100%, 99%);
   --container-color: #ffffff;
+  transition: 0.5s all;
 }
 
 /*========== 
@@ -133,7 +134,7 @@ body.light-theme{
     the website, in light theme
 ==========*/
 .light-theme .scroll-header{
-  box-shadow: 0 2px 4px hsla(0m 0%, 1%m .1);
+  box-shadow: 0 2px 4px hsla(0, 0%, 1%,.1);
 }
 
 .light-theme .nav__menu{
@@ -142,6 +143,7 @@ background-color: hsla(var(--second-hue),32%,90%, .8);
 
 .light-theme .section__subtitle{
   color: var(--text-color);
+  transition: all .2s;
 }
 
 .light-theme .home__social-link{
@@ -161,6 +163,7 @@ background-color: hsla(var(--second-hue),32%,90%, .8);
 .light-theme .button,
 .light-theme .button:hover{
   color: var(--title-color);
+  transition: all .2s;
 }
 
 .light-theme .about__box{
@@ -182,21 +185,25 @@ background-color: hsla(var(--second-hue),32%,90%, .8);
 
 .light-theme .footer__title{
   color: black;
+  transition: all .2s;
 }
 
 
 .light-theme .footer__link{
   color: black;
+  transition: all .2s;
 }
 
 
 .light-theme .footer__copy{
   color: black;
+  transition: all .2s;
 }
 
 
 .light-theme .footer__social-link{
   background-color: black;
+  transition: all .2s;
 }
 
 .light-theme .bx-envelope{

@@ -1140,3 +1140,13 @@ background-color: hsla(var(--second-hue),32%,90%, .8);
 #radio9:checked ~.first{
   margin-left: -40%;
 }
+
+#radio10:checked ~.first{
+  margin-left: 0;
+}
+#radio11:checked ~.first{
+  margin-left: -20%;
+}
+#radio12:checked ~.first{
+  margin-left: -40%;
+}
